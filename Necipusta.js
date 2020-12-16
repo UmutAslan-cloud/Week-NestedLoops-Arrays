@@ -9,6 +9,7 @@ let necipUsta = true;
 //Necip usta icin hayvan ihtiyaci var mi yok mu?
 
 let animalList = ["cow", "cow", "chicken", "pork", "cow", "pork", "chicken", "sheep", "sheep", "chicken"];
+//let necipList=[];
 
 //Hayvanlar kendi iclerinde ayri bir dizi olarak filtrelendi
 let cowAnimal = animalList.filter(animal => animal.toLowerCase().includes("cow"));
@@ -22,3 +23,21 @@ if (necipUsta == true) {
 } else {
     console.log(animalList);
 }
+/* let nextValue="";
+let ayakToplami=0;
+for (let i = 0; i < animalList.length; i++) {
+    nextValue=animalList[i];
+
+   if (nextValue=="chicken") {
+       necipList.push(2)
+   } else if (nextValue=="cow") {
+       necipList.push(4)
+   } else if (nextValue=="sheep") {
+       necipList.push(4)
+   }
+    
+
+}   for (let toplamAyak = 0; toplamAyak < necipList.length; toplamAyak++) {
+         ayakToplami=ayakToplami+necipList[toplamAyak];
+        
+    }console.log(ayakToplami) */
